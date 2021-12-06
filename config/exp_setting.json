@@ -1,0 +1,57 @@
+{
+  "rating_fields": [
+    "uid",
+    "iid",
+    "rating",
+    "ts"
+  ],
+  "user_fields": [
+    "uid",
+    "gender",
+    "age",
+    "oc",
+    "code"
+  ],
+  "item_fields": [
+    "iid",
+    "title",
+    "genre"
+  ],
+  "user_id_field": "uid",
+  "item_id_field": "iid",
+  "label_field": "rating",
+  "dataset_name": "movielens-1m",
+  "dataset_path": "data/ml-1m/",
+  "sample_user_num": 600,
+  "cate_fields": [
+    "uid",
+    "iid",
+    "title",
+    "gender",
+    "age",
+    "oc",
+    "code"
+  ],
+  "multi_hot_fields": [
+    "genre"
+  ],
+  "remove_fields": [
+    "ts"
+  ],
+  "seed": 2021,
+  "num_neg": 1,
+  "use_ui_interaction": true,
+  "model": "MF",
+  "embedding_size": 4,
+  "emb_l2_reg": 1e-4,
+  "metrics": [
+    "hr",
+    "mrr",
+    "recall",
+    "precision"
+  ],
+  "test_batch_size": 32,
+  "topk": 10,
+  "epochs": 5,
+  "batch_size": 64
+}

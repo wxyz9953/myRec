@@ -1,0 +1,31 @@
+{
+  "item_fields": [
+    "md5",
+    "buy",
+    "click",
+    "ItemID",
+    "CategoryID",
+    "BrandID",
+    "ShopID",
+    "Com_BrandID",
+    "PID"
+  ],
+  "user_fields": [
+    "md5",
+    "UserID",
+    "User_Gender",
+    "User_Age",
+    "User_Level1",
+    "User_Level2",
+    "User_Occupation",
+    "User_Geo"
+  ],
+  "label_fields": [
+    "click",
+    "buy"
+  ],
+  "dataset_path": "data/Ali-CCP/buyweight_sample/",
+  "seed": 2021,
+  "batch_size": 32,
+  "epochs": 5
+}

@@ -1,0 +1,28 @@
+{
+  "ple_layers_num": 3,
+  "embedding_size": 4,
+  "emb_l2_reg": 0.0001,
+  "expert_units": 8,
+  "shared_experts_num": 4,
+  "specific_experts_num": [
+    2,
+    2
+  ],
+  "num_tasks": 2,
+  "tower_units": [
+    8,
+    4,
+    1
+  ],
+  "tower_activations": [
+    "relu",
+    "relu",
+    "sigmoid"
+  ],
+  "tower_l2_reg": 0.0001,
+  "tower_dropout_rates": [
+    0.7,
+    0.7,
+    0.7
+  ]
+}
